@@ -57,15 +57,16 @@ body{
     border: 1px solid black;
 }
 .button-contact {
+    width:200px;
   text-align:center;
   color:Black;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size:20px;
-  background-color: #79d279;
+  background-color:#339933;
   border-radius:10px;} /* Green */
 .button-contact:hover{
-  background-color:green;
+  background-color:#79d279;
 
 }
 
@@ -76,12 +77,11 @@ body{
   font-weight:bolder;
   }
   form textarea{
-   width: 85%;
-   background-color:lightgreen;
-  }
+   width: 70%;
+     }
   input[type="text"] {
 height: 40px;
-width: 60%;
+width: 50%;
 }
   .project-image {
     width: 100%;
