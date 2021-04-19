@@ -1,0 +1,78 @@
+body{
+  text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.stripe-message {
+  height: 40px;
+  padding-top: 7px;
+  font-size: large;
+  background-color: #339933;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.round-label{
+ text-align:center;
+  background-color: #339933;
+  color:white;
+  border-radius: 25px;
+  padding:10px;
+}
+.curved-label{
+  text-align:center;
+   background-color: #339933;
+   color:white;
+  border-radius: 50px 20px;
+  padding:10px;
+}
+.project-image{
+  width: 350px;
+ height: 280px;
+}
+.navbar-light {
+  background-color: #79d279;
+  }
+.nav-text{
+  font-size: 20px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: #79d279;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.button-contact {
+  text-align:center;
+  color:Black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size:20px;
+  background-color: #79d279;
+  border-radius:10px;} /* Green */
+.button-contact:hover{
+  background-color:green;
+
+}
+
+/* only on small screen */
+@media only screen and (max-width: 600px) {
+  body, p, h1, h2, h3, h4, h5, h6, p, div, a{
+    font-size: 30px;
+  }
+
+}
