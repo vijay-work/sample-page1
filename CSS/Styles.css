@@ -71,16 +71,17 @@ body{
 
 /* only on small screen */
 @media only screen and (max-width: 600px) {
-  body, p, h1, h2, h3, h4, h5, h6, div, a, form>textarea, form>label{
+  body, p, h1, h2, h3, h4, h5, h6, div, a, form textarea, form label{
   font-size: 1.5rem;
   font-weight:bolder;
   }
-  form>textarea{
-  column-width: auto;
+  form textarea{
+   width: 80%;
+   background-color:lightgreen;
   }
   input[type="text"] {
 height: 40px;
-width: auto;
+width: 60%;
 }
   .project-image {
     width: 100%;
