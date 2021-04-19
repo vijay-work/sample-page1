@@ -75,7 +75,13 @@ body{
   font-size: 1.5rem;
   font-weight:bolder;
   }
-
+  form>textarea{
+  column-width: auto;
+  }
+  input[type="text"] {
+height: 40px;
+width: auto;
+}
   .project-image {
     width: 100%;
    height: 300px;
