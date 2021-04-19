@@ -76,12 +76,12 @@ body{
   font-weight:bolder;
   }
   form textarea{
-   width: 80%;
+   width: 70%;
    background-color:lightgreen;
   }
   input[type="text"] {
 height: 40px;
-width: 60%;
+width: 50%;
 }
   .project-image {
     width: 100%;
