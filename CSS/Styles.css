@@ -46,8 +46,15 @@ body{
 .navbar-nav > li{
   padding-left:30px;
   padding-right:30px;
+  border-right: 2px solid #339933;
+border-top-right-radius: 25px;
 }
-
+.navbar-nav > li:hover{
+  background-color: #DAF7A6;
+  }
+.navbar-nav>li:hover  .nav-text{
+      color:#10914E;
+}
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 100px;
     width: 100px;
