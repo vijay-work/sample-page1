@@ -327,7 +327,9 @@ transform: rotate(30deg);
 
 /* only on small screen */
 @media only screen and (max-width: 600px) {
-
+*{
+  font-size: 1rem;
+  }
   .project-image{
     width: 300px;
    height: 300px;
