@@ -4,5 +4,8 @@ for(var y=0; y<x; y++){
 }
 
 function myFunction(){
+  if(document.querySelector("nav button").ariaExpanded==="true"){
 document.querySelector("button.navbar-toggler").click();
 }
+}
+document.addEventListener("click", myFunction);
