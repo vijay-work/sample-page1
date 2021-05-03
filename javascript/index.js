@@ -6,4 +6,3 @@ navLinks.forEach((l) => {
 })
 
 
-bsCollapse.hide();
