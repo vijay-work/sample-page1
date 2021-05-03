@@ -1,9 +1,8 @@
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarNav')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
-bsCollapse.hide();
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+var x = document.querySelectorAll(".nav-item").length;
+for(var y=0; y<x; y++){
+  document.querySelectorAll(".nav-item")[y].addEventListener("click", myFunction);
+}
 
-
+function myFunction(){
+document.querySelector("button.navbar-toggler").click();
+}
